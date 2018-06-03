@@ -41,6 +41,7 @@
 		<quartz.version>2.2.3</quartz.version>
 		<xstream.version>1.4.10</xstream.version>
 		<mina.version>2.0.13</mina.version>
+		<mq.version>5.15.2</mq.version>
 	</properties>
 	<!-- 只定义依赖的版本，并不实际依赖 -->
 	<dependencyManagement>
@@ -294,7 +295,18 @@
 				<version>${mina.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-all</artifactId>
+				<version>${mq.version}</version>
+			</dependency>
 
+			<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-pool -->
+			<dependency>
+				<groupId>org.apache.activemq</groupId>
+				<artifactId>activemq-pool</artifactId>
+				<version>${mq.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>

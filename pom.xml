@@ -45,6 +45,8 @@
         <mina.version>2.0.13</mina.version>
         <mq.version>5.15.2</mq.version>
         <cglib.version>3.2.7</cglib.version>
+        <aopalliance.version>1.0</aopalliance.version>
+        <aspectjweaver.version>1.9.1</aspectjweaver.version>
     </properties>
     <!-- 只定义依赖的版本，并不实际依赖 -->
     <dependencyManagement>
@@ -324,6 +326,24 @@
                 <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
                 <version>${cglib.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib-nodep</artifactId>
+                <version>${cglib.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>aopalliance</groupId>
+                <artifactId>aopalliance</artifactId>
+                <version>${aopalliance.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectjweaver.version}</version>
             </dependency>
 
         </dependencies>

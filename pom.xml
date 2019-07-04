@@ -47,6 +47,7 @@
         <cglib.version>3.2.7</cglib.version>
         <aopalliance.version>1.0</aopalliance.version>
         <aspectjweaver.version>1.9.1</aspectjweaver.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
     </properties>
     <!-- 只定义依赖的版本，并不实际依赖 -->
     <dependencyManagement>
@@ -344,6 +345,12 @@
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
                 <version>${aspectjweaver.version}</version>
+            </dependency>
+`
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
             </dependency>
 
         </dependencies>

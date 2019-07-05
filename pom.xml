@@ -47,7 +47,7 @@
         <cglib.version>3.2.7</cglib.version>
         <aopalliance.version>1.0</aopalliance.version>
         <aspectjweaver.version>1.9.1</aspectjweaver.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.3.6</zookeeper.version>
         <tomcat.version>8.5.28</tomcat.version>
         <commons-io.version>2.6</commons-io.version>
         <netty.version>3.10.6.Final</netty.version>

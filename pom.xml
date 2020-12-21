@@ -41,7 +41,7 @@
         <storm.version>1.2.2</storm.version>
         <gson.version>2.8.5</gson.version>
         <quartz.version>2.2.3</quartz.version>
-        <xstream.version>1.4.10</xstream.version>
+        <xstream.version>1.4.15</xstream.version>
         <mina.version>2.0.13</mina.version>
         <mq.version>5.15.2</mq.version>
         <cglib.version>3.2.7</cglib.version>

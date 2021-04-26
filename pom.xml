@@ -49,7 +49,7 @@
         <aspectjweaver.version>1.9.1</aspectjweaver.version>
         <zookeeper.version>3.3.6</zookeeper.version>
         <tomcat.version>8.5.28</tomcat.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <netty.version>3.10.6.Final</netty.version>
         <netty-all.version>4.1.22.Final</netty-all.version>
     </properties>
